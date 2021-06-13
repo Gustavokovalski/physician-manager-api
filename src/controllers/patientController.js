@@ -35,7 +35,7 @@ module.exports = {
         }
     },  
     async searchPatientByName(req, res){
-        const name = res.body.name;
+        const name = req.body.name;
         if(!name)
         res.status(400).json({
             msg: "Parâmetro nome está vazio",

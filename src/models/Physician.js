@@ -1,18 +1,12 @@
-const Sequelize = require ("sequelize");
+const Sequelize = require("sequelize");
 
 class Physician extends Sequelize.Model {
     static init(sequelize){
         super.init(
             {
-                physicianId: {
-                    type: Sequelize.INTEGER,
-                    autoIncrement: true,
-                    allowNull: false,
-                    primaryKey: true
-                },
-             name: Sequelize.STRING,
-             email: Sequelize.STRING,
-             password: Sequelize.STRING,
+                name: Sequelize.STRING,
+                email: Sequelize.STRING,
+                password: Sequelize.STRING,
             },
             {
                 sequelize,
