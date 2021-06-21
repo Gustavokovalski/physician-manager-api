@@ -8,18 +8,18 @@ module.exports = {
 				{
 					name: "Paulo da Silva",
 					email: "p_silva@mail.com",
-					password: "123456"
+					password: "$2a$12$WbVTHbAD2H.bqm2.s0uBG.CXbeYjJZSFpRY1XvDw5FbLt3ElkcnfK"
 				},
-        {
-          name: "Isabela Elza Ferreira",
+        		{
+          			name: "Isabela Elza Ferreira",
 					email: "isabelaelzaferreira_silva@mail.com",
-					password: "789101"
-        },
-        {
-          name: "Raimundo Mateus",
+					password: "$2a$12$WbVTHbAD2H.bqm2.s0uBG.CXbeYjJZSFpRY1XvDw5FbLt3ElkcnfK"
+        		},
+        		{
+          			name: "Raimundo Mateus",
 					email: "raimundo_mat@mail.com",
-					password: "111213"
-        },
+					password: "$2a$12$WbVTHbAD2H.bqm2.s0uBG.CXbeYjJZSFpRY1XvDw5FbLt3ElkcnfK"
+        		},
 			],
 			{}
 		);
